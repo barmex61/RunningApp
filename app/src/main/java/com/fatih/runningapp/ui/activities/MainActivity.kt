@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(),MyListener {
                 navController.navigate(R.id.trackingFragment,null,NavOptions.Builder().setLaunchSingleTop(true).build())
             }
         }
-        today is a good day
+        println("commit")
         setSupportActionBar(binding.toolbar)
     }
 
